@@ -84,7 +84,28 @@
     border-radius: 5px;
     padding: 1rem;
   }
-  #restart{
+  /* #restart{
     text-align: center;justify-content: center;
     align-items: center;
+  } */
+  #restartButtonContainer{
+    /* display: block; */
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+    margin-top: 1rem;
   }
+  #restartButton{
+    display: inline-flex  ;
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 8px;
+
+
+  }
+#restartButton:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
