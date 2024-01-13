@@ -15,14 +15,14 @@ function winscore() {
   var score = document.getElementById("point");
   user++;
   score.innerHTML = user;
-  toggleRestartButton(true); // Show the restart button
+  toggleRestartButton(true); 
 }
 function cwinscore() {
   document.querySelector(".text").style.backgroundColor = "red";
   var score = document.getElementById("cpoint");
   comp++;
   score.innerHTML = comp;
-  toggleRestartButton(true); // Show the restart button
+  toggleRestartButton(true);
 }
 
 const choices = document.querySelectorAll(".image");
